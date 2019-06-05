@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="js/burger.js" defer></script>
+    <title>Burger</title>
+</head>
+<body>
+<div class="container">
+    <div class="header">
+        <button class="btn-cart" type="button">Корзина</button>
+    </div>
+    <div class="content">
+        <div class="burger-div">
+
+            <div class="burger-size">
+                <p>Size</p>
+
+            </div>
+
+            <div class="burger-filing">
+                <p>Filing (one or more)</p>
+            </div>
+            <div class="burger-extra">
+                <p>Extra</p>
+
+            </div>
+            <input type="button" class="btn-calc" value="Calculate" onclick="calcBurger()"/>
+            <p>Result</p>
+            <span>Cost:</span>&nbsp;<span id="burger-cost"></span><br>
+            <span>Calorie:</span>&nbsp;&nbsp;<span id="burger-callories"></span><br>
+        </div>
+    </div>
+    <div class="footer">&copy;Все права защищены</div>
+</div>
+</body>
+</html>
